@@ -13,3 +13,6 @@ hugo mod get -u
 # Install JavaScript dependencies
 hugo mod npm pack
 npm install
+
+# Ensure we have some necessary directories
+mkdir content data layouts
