@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Usage: install <name-of-blog-module>
+
+MODULE_NAME=$1
+
+# Initialise this project as a Hugo module
+hugo mod init $MODULE_NAME
+
+# Update all modules in the project
+hugo mod get -u
+
+# Install JavaScript dependencies
+hugo mod npm pack
+npm install
