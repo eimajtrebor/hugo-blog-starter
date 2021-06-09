@@ -18,6 +18,7 @@ This is a super minimal blog starter to get you up and running quickly with a Hu
 
 ### Initialise the project
 
+- Edit the config/_default/module.json if you want a different theme.
 - Initialise the project as a Hugo module.
 - Pull any submodules into the project (such as the theme).
 - Create a package.json using the Hugo module npm command.
