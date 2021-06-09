@@ -1,18 +1,18 @@
-# hugo-blog-starter
+# hugo-website-starter
 
-This is a super minimal blog starter to get you up and running quickly with a Hugo blog that uses TailwindCSS. The theme is a work in progress at the moment and just pulls in the TailwindCSS library. You will need to add your own custom templates to your project's layouts directory.
+This is a super minimal website starter to get you up and running quickly with a Hugo website that uses TailwindCSS. The theme is a work in progress at the moment and just pulls in the TailwindCSS library. You will need to add your own custom templates to your project's layouts directory.
 
 ## Getting started
 
 ### Clone this repo
 
-- Make a directory for your blog.
+- Make a directory for your website.
 - Clone this repository into your new directory.
 - Remove the .git directory and initialise your own git repository.
 
 ```
 % mkdir <name-of-blog>
-% git clone git@github.com:eimajtrebor/hugo-blog-starter.git <name-of-blog>
+% git clone git@github.com:eimajtrebor/hugo-blog-starter.git <name-of-website>
 % rm -rf .git
 ```
 
@@ -28,7 +28,7 @@ This is a super minimal blog starter to get you up and running quickly with a Hu
 #### Manual version
 
 ```
-% hugo mod init github.com/<github-user>/<blog-name>
+% hugo mod init github.com/<github-user>/<website-name>
 % hugo mod get -u
 % hugo mod npm pack
 % npm install
@@ -40,10 +40,10 @@ This is a super minimal blog starter to get you up and running quickly with a Hu
 - Run the init script.
 
 ```
-% ./scripts/init github.com/<github-user>/<blog-name>
+% ./scripts/init github.com/<github-user>/<website-name>
 ```
 
-### Start blogging
+### Start creating content
 
 - Create your first post.
 
@@ -51,7 +51,7 @@ This is a super minimal blog starter to get you up and running quickly with a Hu
 % hugo new posts/my-first-post.md
 ```
 
-- Run the npm script to start the blog.
+- Run the npm script to start the website.
 
 ```
 % npm run hugo-server
