@@ -1,9 +1,9 @@
 {
-    "author": "",
+    "author": "Author",
     "avatar": "",
-    "description": "",
-    "tagline": "",
-    "copyright": "",
+    "description": "Description",
+    "tagline": "Tagline",
+    "copyright": "Copyright",
     "debug": false,
     "js": {
         "minify": true,
