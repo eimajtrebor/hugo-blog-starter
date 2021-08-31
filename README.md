@@ -133,10 +133,10 @@ This is barebones.
 
 You will need to do the some or all of the following:
 
-- Update the config.json.
-- Create your own custom templates in the layouts directory.
+- Create your own custom templates in the layouts directory to override the theme.
 - Add your own modules (such as JavaScript libraries).
-- Add a 404 page.
-- Add a robots.txt.
+- Create a home page (use the theme's block paradigm to add widgets).
+- Override the default 404 page.
+- Override the default robots.txt.
 
 
