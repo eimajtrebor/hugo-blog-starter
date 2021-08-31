@@ -32,7 +32,7 @@ The theme is a work in progress that provides TailwindCSS, Alpine.js, a handful 
 
 ### Update the configuration
 
-Review the initial configuration and make any changes. You can return the configuration once the site is up and running.
+Review the initial configuration and make any changes. You can return the configuration once the site is up and running.If you are just starting out then jump straight to "Initialise the project".
 
 #### config.json
 
@@ -75,7 +75,7 @@ Review the initial configuration and make any changes. You can return the config
 ### Initialise the project
 
 - Initialise the project as a Hugo module.
-- If an error occurs then please check this workaround as at the time of writing a bug exists which may impact the import of modules [Workaround](https://discourse.gohugo.io/t/hugo-latest-version-cant-support-server-command-under-examplesite-subfolder/34506/2)
+- If an error occurs then please check this workaround as at the time of writing a bug exists which may impact the import of modules - [Workaround](https://discourse.gohugo.io/t/hugo-latest-version-cant-support-server-command-under-examplesite-subfolder/34506/2)
 
 ```
 % hugo mod init github.com/<github-user>/<website-name>
