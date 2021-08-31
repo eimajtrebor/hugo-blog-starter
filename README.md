@@ -1,6 +1,6 @@
 # hugo-website-starter
 
-This is a super minimal website starter to get you up and running quickly with a Hugo website. It makes use of the [hugo-theme-barebones](https://github.com/eimajtrebor/hugo-theme-barebones) project, which is a minimal theme that uses TailwindCSS and Alpine.js.
+This is a minimal website starter to get you up and running quickly with a Hugo website. It makes use of the [hugo-theme-barebones](https://github.com/eimajtrebor/hugo-theme-barebones) project, which is a minimal theme that uses TailwindCSS and Alpine.js.
 
 The theme is a work in progress that provides TailwindCSS, Alpine.js, a handful of starter templates and sensible defaults. You will need to add your own custom templates and configuration to your project to override the defaults.
 
@@ -136,6 +136,8 @@ You will need to do the some or all of the following:
 - Create your own custom templates in the layouts directory to override the theme.
 - Add your own modules (such as JavaScript libraries).
 - Create a home page (use the theme's block paradigm to add widgets).
+- Add custom fonts.
+- Add analytics.
 - Override the default 404 page.
 - Override the default robots.txt.
 
