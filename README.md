@@ -60,10 +60,43 @@ Review the initial configuration and make any changes. You can return the config
 - Edit `config/_default/markup.json`.
 - Update this file to configure syntax highlighting.
 
+```json
+{
+    "highlight": {
+        "style": "dracula"
+    }
+}
+```
+
 #### menu.json
 
-- Edit `config/_default/markup.json`.
+- Edit `config/_default/menu.json`.
 - Update this file to configure the global navigation you would like to use for your site.
+
+```json
+{
+    "main": [
+        {
+            "identifier": "about",
+            "name": "About",
+            "url": "/about",
+            "weight": 10
+        },
+        {
+            "identifier": "posts",
+            "name": "Posts",
+            "url": "/posts",
+            "weight": 20
+        },
+        {
+            "identifier": "topics",
+            "name": "Topics",
+            "url": "/tags",
+            "weight": 30
+        }
+    ]
+}
+```
 
 ### Scripts
 
